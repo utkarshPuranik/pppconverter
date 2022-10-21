@@ -35,7 +35,7 @@
     <div class="row">
       <div class="large-3 columns">&nbsp;</div>
       <div class="large-6 columns">
-        <form method="POST" id="salaryform">
+        <form method="POST" id="salaryform" validate_on_submit>
           {{ form.csrf_token }}
           {{ form.from_country.label }} {{ form.from_country(id='from_country') }}
           {{ form.salary.label }} {{ form.salary(id='salary', placeholder="For Example, 100000") }}

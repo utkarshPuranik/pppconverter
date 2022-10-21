@@ -45,3 +45,10 @@ Note: Works on python3.4 and above.
 
 
 [wb]: http://data.worldbank.org/indicator/PA.NUS.PPP
+
+
+# Utkarsh Run Commands
+
+        env\Scripts\activate
+        py manage.py runserver
+
